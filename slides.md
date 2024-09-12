@@ -10,7 +10,9 @@ layout: section
 
 <div class="absolute bottom-10">
   <span class="font-700">
-    Thomas Gossmann - <a href="https://gos.si" target="_blank">gos.si</a>
+    Thomas Gossmann - 
+    <a href="https://gos.si" target="_blank">gos.si</a> - 
+    <a href="https://x.com/unistyler" target="_blank">@unistyler</a>
   </span>
 </div>
 
@@ -1480,7 +1482,9 @@ layout: statement
 
 <div class="absolute left-10 bottom-10">
   <span>
-    Thomas Gossmann - <a href="https://gos.si" target="_blank">gos.si</a>
+    Thomas Gossmann - 
+    <a href="https://gos.si" target="_blank">gos.si</a> - 
+    <a href="https://x.com/unistyler" target="_blank">@unistyler</a>
   </span>
 </div>
 
