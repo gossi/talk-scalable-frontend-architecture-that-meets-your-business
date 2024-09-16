@@ -1401,6 +1401,11 @@ One repo per subdomain
 - <ph-package/> <img src="/ember.svg" class="h1cap inline"> ember (addon)
 - <ph-package/> <img src="/ember.svg" class="h1cap inline"> main (engine)
 
+
+<small style="font-size: 65%">
+Legend: <span class="opacity70"><ph-package/> Internal</span> <ph-package/> Public
+</small>
+
 <!--
 Monorepo --&gt; Polyrepo
 -->
@@ -1451,6 +1456,10 @@ One repo for all subdomains
     - <ph-package/> <img src="/ember.svg" class="h1cap inline"> ember (addon)
   - `exercises/`
 
+<small style="font-size: 65%">
+Legend: <span class="opacity70"><ph-package/> Internal</span> <ph-package/> Public
+</small>
+
 <!--
 Guide Engineers on the Safe Path
 -->
@@ -1462,6 +1471,15 @@ Guide Engineers on the Safe Path
 - Subdomain independently deployable
 - Ember engines would be the technological choice
 - Currently not possible
+
+
+## `ember-engines`
+
+- Use them for isolated context
+- Do NOT use them for route/chunk splitting (use embroider for that)
+- Similar to "composable components", Ember will have "composable apps" - and I
+  think that is beatiful
+- The technical solution for this is unclear as of now (apps and engines might merge)
 
 ---
 
